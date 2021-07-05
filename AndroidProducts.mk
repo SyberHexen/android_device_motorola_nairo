@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nairo.mk
+    $(LOCAL_DIR)/havoc_nairo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_nairo-eng \
-    lineage_nairo-user \
-    lineage_nairo-userdebug
+    havoc_nairo-eng \
+    havoc_nairo-user \
+    havoc_nairo-userdebug
