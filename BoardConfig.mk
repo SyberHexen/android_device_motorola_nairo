@@ -56,3 +56,6 @@ ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/odm/manifest_n.xml
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# System props
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
