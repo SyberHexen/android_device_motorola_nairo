@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nairo.mk
+    $(LOCAL_DIR)/aosp_nairo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_nairo-eng \
-    lineage_nairo-user \
-    lineage_nairo-userdebug
+    aosp_nairo-eng \
+    aosp_nairo-user \
+    aosp_nairo-userdebug
