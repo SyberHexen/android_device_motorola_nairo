@@ -28,12 +28,11 @@ RECOVERY_KMOD_TARGETS := \
     qpnp-smbcharger-mmi.ko \
     mcDrvModule.ko \
     exfat.ko \
-    aw8624.ko \
+    aw8695.ko \
     sensors_class.ko \
     mmi_relay.ko \
     sx933x_sar.ko \
-    touchscreen_mmi.ko \
-    focaltech_0flash_mmi.ko \
+    nova_0flash_mmi.ko \
     mmi_sigprint.ko
 
 INSTALLED_RECOVERY_KMOD_TARGETS := $(RECOVERY_KMOD_TARGETS:%=$(TARGET_RECOVERY_ROOT_OUT)/vendor/lib/modules/%)

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_kiev.mk
+    $(LOCAL_DIR)/twrp_nairo.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_kiev-user \
-    twrp_kiev-userdebug \
-    twrp_kiev-eng
+    twrp_nairo-user \
+    twrp_nairo-userdebug \
+    twrp_nairo-eng

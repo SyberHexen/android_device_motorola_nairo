@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-DEVICE_PATH := device/motorola/kiev
+DEVICE_PATH := device/motorola/nairo
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := lito
@@ -87,7 +87,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_VERSION := 4.19
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CONFIG := vendor/kiev_defconfig
+TARGET_KERNEL_CONFIG := vendor/nairo_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/sm7250
 TARGET_KERNEL_ADDITIONAL_FLAGS += \
     DTC_PREBUILT=true \
@@ -143,7 +143,7 @@ TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_RESETPROP := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_MAX_BRIGHTNESS := 255
-TW_DEFAULT_BRIGHTNESS := 120
+TW_DEFAULT_BRIGHTNESS := 200
 TW_THEME := portrait_hdpi
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
 TW_CUSTOM_BATTERY_PATH := "/sys/class/power_supply/qcom_battery"
@@ -204,8 +204,8 @@ TW_EXTRA_LANGUAGES := true
 # TW_DEFAULT_LANGUAGE := zh_CN
 
 # Notch Offset
-TW_Y_OFFSET := 100
-TW_H_OFFSET := -100
+TW_Y_OFFSET := 118
+TW_H_OFFSET := -118
 
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
